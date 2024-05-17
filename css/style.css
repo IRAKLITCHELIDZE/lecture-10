@@ -62,15 +62,15 @@ li {
 
 .s2 {
   display: flex;
-  max-width: 1100px;
+  max-width: 1400px;
   margin-top: 20px;
+  justify-content: space-between;
+  padding-top: 20px;
 
   margin: 0 auto;
 }
 .div1 {
   width: 200px;
-  margin-left: 0;
-  margin-top: 20px;
 }
 
 h4 {
@@ -99,16 +99,59 @@ h4 {
   text-align: left;
 }
 .div2 {
-  border: 1px solid #48ff00;
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.img {
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+}
+.title {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21.85px;
+  text-align: left;
+  color: #343232;
+}
+.p {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.7px;
+  text-align: left;
+  color: #636060;
+}
+.card1 {
+  width: 200px;
+}
+.card2 {
+  width: 200px;
+}
+.card3 {
+  width: 200px;
+}
+.card4 {
+  width: 200px;
+}
+.card5 {
+  width: 200px;
+}
+.card6 {
+  width: 200px;
 }
 
 @media (max-width: 630px) {
-}
-nav {
-  display: none;
-}
-.fa-bars {
-  display: block;
+  nav {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+  }
 }
 
 @media (max-width: 700px) {
